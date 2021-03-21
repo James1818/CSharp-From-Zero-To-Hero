@@ -17,24 +17,28 @@ namespace BootCamp.Chapter
         public static int PromptInt(string message)
         {
             // To do: call your implementation. 
+            return Lesson3.returnInt(message);
             return 0;
         }
 
         public static string PromptString(string message)
         {
             // To do: call your implementation. 
+            return Lesson3.returnString(message);
             return "";
         }
 
         public static float PromptFloat(string message)
         {
             // To do: call your implementation. 
+            return Lesson3.returnFloat(message);
             return 0;
         }
 
         public static float CalculateBmi(float weight, float height)
         {
             // To do: call your implementation. 
+            return Lesson3.returnBMI(weight, height);
             return 0;
         }
     }
